@@ -1,0 +1,208 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+    color: #222;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /*overflow-x:hidden;*/
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar
+{
+    padding: .8rem;
+    background-color: transparent;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+    
+}
+.navbar-toggler{
+    font-weight: 1000;
+    
+    
+}
+.logo{
+    display: inline-block;
+    margin: 10px;
+    height:12vh;
+    width: auto;
+    border-radius: 30%;
+    line-height: 10vh;
+    
+}
+.navitem{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.nav-link:hover{
+    color:white !important;
+    background-color:darkblue;
+    border-radius:20px;
+ 
+ }
+ @media (max-width: 576px) {
+    .navbar {
+      background-color: #b3d7ff;
+      color: #fff;
+    }
+    .navbar-nav li {
+      color: #eee;
+    }
+  }
+.banner{
+    position: relative;
+    background: url(images/sbanner.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 250px 0 200px;
+    }
+.About_us {
+    margin: 150px 0px;
+    text-align: left;
+  }
+.about h1{
+    
+    text-transform: uppercase;
+  }
+.about hr,
+.wings_container hr,
+.project_container hr,
+.connect hr{
+    width: 50px;
+    border-top: 3px solid #fbab7e;
+    
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}  
+
+.about p{
+    padding: 2% 0;
+    line-height: 30px;
+    text-align:justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.Owings{
+   margin: 150px auto;
+   text-align: left;
+}
+.wings_container{
+    line-height: 30px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.wings_container h1{
+     
+     text-transform: uppercase;
+}
+/*.wings_container hr{
+    width: 50px;
+    border-top: 3px solid #fbab7e;
+    
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+} */ 
+.index{
+   max-width: 90vw;
+}
+.wings{
+    padding: 10px 20px;
+    max-width: 500px;
+}
+.inner{
+    border-left: 5px solid #85ffbd;
+    border-radius: 10px;
+    box-shadow:rgba(17,17,26,0.1) 0px 0px 16px;
+}
+.Sproject{
+    margin: 150px auto;
+    text-align: left;
+ }
+ .project_container{
+     line-height: 30px;
+     text-align: justify;
+ }
+ .project_container h1{
+      
+      text-transform: uppercase;
+ }
+ .container{
+     margin-top: 5%;
+    
+ }
+.project{
+    overflow: hidden;
+} 
+.project img{
+    transition: all 1.5s ease;
+}
+.project:hover img{
+    transform: scale(1.5);
+} 
+.btn{
+    width: 150px;
+    box-shadow: inset 0 0 0 0 #fbab7e;
+    transition: ease-out 0.3s;
+    outline:none;
+} 
+.btn:hover{
+    box-shadow: inset 150px 0 0 0 #fbab7e;
+    cursor: pointer;
+    color: #000;
+
+}
+
+
+.connect{
+    
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-github{
+    color: #171515;
+}
+.fa-instagram{
+    color: white;
+    background:#375989 ;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+/*hr.light{
+    border-top: 3px solid #fbab7e;
+    width: 5%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}*/
+footer a{
+    color: #d5d5d5;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem; 
+}
