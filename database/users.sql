@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 09, 2021 at 07:58 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.0
+-- Generation Time: Jul 12, 2021 at 04:39 PM
+-- Server version: 10.4.20-MariaDB
+-- PHP Version: 8.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -26,8 +26,6 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `users`
 --
--- Creation: Jul 08, 2021 at 05:44 PM
---
 
 CREATE TABLE `users` (
   `id` int(7) NOT NULL,
@@ -46,8 +44,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `mobile`, `branch`, `year`, `domain`, `password`, `date`) VALUES
-(4, 'John Doe', 'john@abc.com', '1234567890', 'M.C.A', '2nd', 'Web', '81dc9bdb52d04dc20036dbd8313ed055', '2021-07-08 18:37:00');
-
+(4, 'John Doe', 'john@abc.com', '1234567890', 'M.C.A', '2nd', 'Web', '81dc9bdb52d04dc20036dbd8313ed055', '2021-07-08 18:37:00'),
+(5, 'manisha patro', 'patromanisha372@gmail.com', '7749957009', 'M.C.A', '3rd', 'web', '24bc287cb4bf773894598773f3c13c4e', '2021-07-10 18:15:05');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +65,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
